@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/ingresar_producto.css">
+    <link rel="stylesheet" href="../css/tabla_productos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section>
+
+            <div class="container-form">
+                <form>
+                   
+                    <div class="ipro">
+                        <label class="label" for="id">ID</label>
+                    
+                        <input class="input" type="number" name="id" id="id" disabled>
+                    </div>
+            
+                    <div class="ipro">
+                        <label class= "label" for="nombre">Nombre</label>
+                        <input class="input"  type="text" name="nombre" id="nombre">
+                    </div>
+
+                    <div class="entrada ipro" >
+                        <label class="label" for="precio">Precio</label>
+                        <input  class= "input" type="number" name="precio" id="precio">
+                    </div>
+
+                    <div class="entrada ipro" >
+                        <label class="label" for="stock">Stock</label>
+                        <input  class= "input" type="number" name="stock" id="stock">
+                    </div>
+
+                    <div class="entrada ipro" >
+                        <label  class= "label" for="imagen">Imagen</label>
+                        <input  class= "input" type="text" name="imagen" id="imagen">
+                    </div>
+
+                    
+                    <button class="modificar" type="button" onclick="modificar()">Modificar</button>
+                </form>
+          
+          
+              </div>
+
+        </section>
+    </main>
+
+    
+    <footer></footer>
+
+    <script src="../js/editar_producto.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/datos_editar.js"></script>
+</body>
+</html>
